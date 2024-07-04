@@ -23,7 +23,7 @@ class Article(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'Article {self.id} by {self.author}'
-
+    
 class User(db.Model, SerializerMixin):
     __tablename__ = 'users'
 
